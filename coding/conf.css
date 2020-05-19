@@ -1,0 +1,38 @@
+body {
+		background-image: url("img/pattern.png");
+		font-size: 1.4em;
+		font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+		text-align: center;
+}
+.container{
+	margin: 15%;
+	text-align: center;
+}
+#print{
+	padding: 10px 70px;
+	text-align: center;
+	background-color: #0066CC;
+	border: 1px solid #0066CC;
+	color:white;
+    border-radius: 4px;
+}
+#main-footer{
+	background-color: coral;
+	color:white;
+	text-align: center;
+	padding: 50px;
+	margin-top:100px;
+}
+#main-footer p{
+	border-right: 5px;
+	margin-bottom: 5px;
+	font-size: 12px;
+}
+
+/* for being responsive*/
+@media(max-width: 600px){
+	#main{
+		width:100%;
+		float:none;
+	}
+}

@@ -1,0 +1,80 @@
+body{
+	background-color:white;
+	color: #555;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:14px;
+	line-height:1.6em;
+	margin:0;
+}
+.container{
+	margin: 15%;
+	text-align: center;
+}
+#createOnlineAccount{
+	text-align: center;
+	color:#0066CC;
+}
+
+.regform input[type=text]{
+	border-radius: 4px;
+	border: 1px solid #0066CC;
+	padding: 5px 10px;
+	margin-bottom: 5px;
+}
+
+.regform input[type=email]{
+	border-radius: 4px;
+	border: 1px solid #0066CC;
+	padding: 5px 10px;
+	margin-bottom: 5px;
+}
+.regform input[type=password]{
+	border-radius: 4px;
+	border: 1px solid #0066CC;
+	padding: 5px 10px;
+	margin-bottom: 5px;
+}
+
+.regform input[type=submit]{
+	padding: 10px 70px;
+	text-align: center;
+	background-color: #0066CC;
+	border: 1px solid #0066CC;
+	color:white;
+    border-radius: 4px;
+}
+.forgetpswrd a{
+	color: #0066CC;
+	text-align: center;
+	/*margin-top: 5px;
+	margin-left: 50px; */
+
+}
+#sign-in{
+	text-align: center;
+
+}
+a:link, a:visited{
+	color:#0066CC;
+}
+
+#main-footer{
+	background-color: coral;
+	color:white;
+	text-align: right;
+	padding: 50px;
+	margin-top:100px;
+}
+#main-footer p{
+	border-right: 5px;
+	margin-bottom: 5px;
+	font-size: 12px;
+}
+
+/* for being responsive*/
+@media(max-width: 600px){
+	#main{
+		width:100%;
+		float:none;
+	}
+}
